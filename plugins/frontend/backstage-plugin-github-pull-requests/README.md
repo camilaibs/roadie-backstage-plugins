@@ -168,7 +168,7 @@ Follow these steps to detect and configure the GitHub Pull Requests plugin if yo
 
 ## Package Detection
 
-Once you install the "_@roadiehq/backstage-plugin-github-pull-requests_" package using your preferred package manager, you have to choose how the package should be detected by the app. The package can be automatically discovered when the feature discovery config is set, or it can be manually enabled via code (for more granular package customization cases).
+Once you install the `@roadiehq/backstage-plugin-github-pull-requests` package using your preferred package manager, you have to choose how the package should be detected by the app. The package can be automatically discovered when the feature discovery config is set, or it can be manually enabled via code (for more granular package customization cases).
 
 <table>
   <tr>
@@ -208,15 +208,16 @@ const app = createApp({
 });
 
 //...
-       </code>
-      </pre>
-    </td>
+</code>
+</pre>
+</td>
+
   </tr>
 </table>
 
 ### Extensions Configuration
 
-Currently, the plugin installs 3 extensions: one api, one entity page card and one entity page content (also known as entity page tab), see below examples of how to configure the available extensions. 
+Currently, the plugin installs 3 extensions: one api, one entity page card and one entity page content (also known as entity page tab), see below examples of how to configure the available extensions.
 
 ```yml
 # app-config.yaml
